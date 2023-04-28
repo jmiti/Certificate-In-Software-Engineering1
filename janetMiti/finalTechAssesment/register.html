@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="./public/style.css">
+    <link rel="stylesheet" href="./public/css/bootstrap.css">
+   
+
+</head>
+
+<body>
+    <form action="#" name="" onsubmit="return Validate();" method="POST">
+        <div class="row" style="width:70%; margin: auto; border:black solid 1px; padding-left:40px;">
+            <div class="row" id="heading" style="background-color: black; height:60px;">
+                <h3 style="color: white; margin: auto;">GENQ KYC FORM</h3>
+            </div>
+            <hr>
+         <!-- h1 -->
+            <div class="container"> 
+                <div class="row"> 
+                   <div class="col" id="heading1">
+                    Bio Data
+                   </div> 
+                </div> 
+             </div>
+             <!-- underline -->
+             <div class="container"> 
+                <div class="row"> 
+                   <div class="col" id="underline">I'm your content inside the grid!</div> 
+                </div> 
+             </div>
+
+            <div class="row" style="margin-top:20px;">
+                <div class="col-md-6">
+                    <div>                        
+                        <label for="sur-name" ></label>
+                        <input type="text" class="form-control" name="surname" id="surname" placeholder="Enter your first name here">
+                        <span id="SurNErr"></span>
+                    </div>
+                    <div>
+                        <label for="GivenName"></label>
+                        <input type="text" class="form-control" name="givenname" id="GivenName" placeholder="Select your date of birth">
+                        <span id="GNErr"></span>
+                    </div>
+                   
+                </div>
+                <div class="col-md-6">
+                    <div>                        
+                        <label for="sur-name" ></label>
+                        <input type="text" class="form-control" name="surname" id="sur-name" placeholder="Enter your last name">
+                        <span id="SurNErr"></span>
+                    </div>
+                    <div>
+                        <label for="GivenName"></label>
+                        <input type="text" class="form-control" name="givenname" id="GivenName" placeholder="Select your gender">
+                        <span id="GNErr"></span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container"> 
+                <div class="row"> 
+                   <div class="col" id="heading2">
+                    Location
+                   </div> 
+                </div> 
+             </div>
+             <!-- underline -->
+             <div class="container"> 
+                <div class="row"> 
+                   <div class="col" id="underline"></div> 
+                </div> 
+             </div>
+
+            <div class="row" style="margin-top:20px;">
+                <div class="col-md-6">
+                    <div>                        
+                        <label for="sur-name" ></label>
+                        <input type="text" class="form-control" name="surname" id="surname" placeholder="Select your country of residence">
+                        <span id="SurNErr"></span>
+                    </div>
+                    <div>
+                        <label for="GivenName"></label>
+                        <input type="text" class="form-control" name="givenname" id="GivenName" placeholder="Enter your Town here">
+                        <span id="GNErr"></span>
+                    </div>
+                   
+                </div>
+                <div class="col-md-6">
+                    <div>                        
+                        <label for="sur-name" ></label>
+                        <input type="text" class="form-control" name="surname" id="sur-name" placeholder="Enter your State/District here">
+                        <span id="SurNErr"></span>
+                    </div>
+                    <div>
+                        <label for="GivenName"></label>
+                        <input type="text" class="form-control" name="givenname" id="GivenName" placeholder="Zip Code">
+                        <span id="GNErr"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container"> 
+                <div class="row"> 
+                   <div class="col" id="heading2">
+                    Contacts and Address
+                   </div> 
+                </div> 
+             </div>
+             <!-- underline -->
+             <div class="container"> 
+                <div class="row"> 
+                   <div class="col" id="underline"></div> 
+                </div> 
+             </div>
+
+            <div class="row" style="margin-top:20px;">
+                <div class="col-md-6">
+                    <div>                        
+                        <label for="sur-name" ></label>
+                        <input type="text" class="form-control" name="surname" id="surname" placeholder="Phone Number 1">
+                        <span id="SurNErr"></span>
+                    </div>
+                    
+                </div>
+                <div class="col-md-6">
+                    <div>                        
+                        <label for="sur-name" ></label>
+                        <input type="text" class="form-control" name="surname" id="sur-name" placeholder="Phone Number 2">
+                        <span id="SurNErr"></span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div>
+                        <label for="nationality"></label>
+                        <input type="text" class="form-control" name="nationality" id="nationality" placeholder="Enter your Email here">
+                        <span id="natErr"></span>
+                    </div>
+                </div>
+            </div>
+            
+            <button id="btn" type="submit">Submit</button>
+        </div>
+            
+        
+        
+    </form>
+
+    <script src="./public/js/bootstrap.js"></script>
+    <script src="./public/validation.js"></script>
+</body>
+
+</html>

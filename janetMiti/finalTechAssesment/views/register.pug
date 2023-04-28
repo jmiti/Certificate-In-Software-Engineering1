@@ -1,0 +1,93 @@
+doctype html
+head
+  meta(charset='utf-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no')
+  link(rel='stylesheet' href='/style.css')
+  link(rel='stylesheet' href='/css/bootstrap.css')
+form(action='#' name='' onsubmit='return Validate();' method='POST')
+  .row(style='width:70%; margin: auto; border:black solid 1px; padding-left:40px;')
+    #heading.row(style='background-color: black; height:60px;')
+      h3(style='color: white; margin: auto;') GENQ KYC FORM
+    hr
+    // h1
+    .container
+      .row
+        #heading1.col
+          | Bio Data
+    // underline
+    .container
+      .row
+        #underline.col
+    .row(style='margin-top:20px;')
+      .col-md-6
+        div
+          label(for='sur-name')
+          input#firstname.form-control(type='text' name='firstname' placeholder='Enter your first name here')
+          span#SurNErr
+        div
+          label(for='GivenName')
+          input#dob.form-control(type='text' name='dob' placeholder='Select your date of birth')
+          span#GNErr
+      .col-md-6
+        div
+          label(for='sur-name')
+          input#lastname.form-control(type='text' name='lastname' placeholder='Enter your last name')
+          span#SurNErr
+        div
+          label(for='GivenName')
+          input#gender.form-control(type='text' name='gender' placeholder='Select your gender')
+          span#GNErr
+    .container
+      .row
+        #heading2.col
+          | Location
+    // underline
+    .container
+      .row
+        #underline.col
+    .row(style='margin-top:20px;')
+      .col-md-6
+        div
+          label(for='sur-name')
+          input#country.form-control(type='text' name='country' placeholder='Select your country of residence')
+          span#SurNErr
+        div
+          label(for='GivenName')
+          input#town.form-control(type='town' name='town' placeholder='Enter your Town here')
+          span#GNErr
+      .col-md-6
+        div
+          label(for='sur-name')
+          input#state.form-control(type='text' name='state' placeholder='Enter your State/District here')
+          span#SurNErr
+        div
+          label(for='GivenName')
+          input#zip.form-control(type='text' name='zip' placeholder='Zip Code')
+          span#GNErr
+    .container
+      .row
+        #heading2.col
+          | Contacts and Address
+    // underline
+    .container
+      .row
+        #underline.col
+    .row(style='margin-top:20px;')
+      .col-md-6
+        div
+          label(for='sur-name')
+          input#phoneNumber1.form-control(type='text' name='phoneNumber1' placeholder='Phone Number 1')
+          span#SurNErr
+      .col-md-6
+        div
+          label(for='sur-name')
+          input#phoneNumber2.form-control(type='text' name='phoneNumber2' placeholder='Phone Number 2')
+          span#SurNErr
+      .row
+        div
+          label(for='nationality')
+          input#email.form-control(type='text' name='email' placeholder='Enter your Email here')
+          span#natErr
+    button#btn(type='submit') Submit
+script(src='/js/bootstrap.js')
+script(src='/validation.js')

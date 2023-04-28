@@ -1,0 +1,65 @@
+
+.mySlides {
+	display: none;
+  }
+
+
+header {
+	background-color: rgb(69, 64, 64);
+	color: rgb(241, 245, 235);
+	padding: 10px;
+}
+
+main {
+	display: list-item;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 20px;
+	background-color: white;
+}
+
+footer {
+	background-color: grey;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+
+.item {
+	background-color: #f9f9f9;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+	margin: 20px;
+	padding: 20px;
+	text-align: center;
+	width: 300px;
+}
+
+.item img {
+	max-width: 100%;
+}
+
+.item h2 {
+	font-size: 1.5rem;
+	margin-bottom: 10px;
+}
+
+.item p {
+	font-size: 1.2rem;
+	margin-bottom: 5px;
+
+}
+
+.item p:last-child {
+	font-weight: bold;
+}
+
+.mySlides {
+  display: none;
+}
+.item-container a{
+	text-decoration: none !important;
+	color: black;
+}
+

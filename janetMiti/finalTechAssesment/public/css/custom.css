@@ -1,0 +1,23 @@
+/* .login-form{
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
+    padding-top: 200px;
+    /* top: 50%;
+    transform: translateY(50%); */
+/* } */
+.login-form {
+    width: 350px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+body{
+
+    background-color: rgb(134, 188, 134) !important;
+
+} 
+.carousel img{
+    height: 450px;
+}
